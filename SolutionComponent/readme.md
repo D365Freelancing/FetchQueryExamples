@@ -1,7 +1,9 @@
-https://www.d365freelancing.com/post/query-all-entities-in-a-dataverse-solutions
-https://www.d365freelancing.com/post/query-views-in-power-platform-using-fetchxml
+# Query components in a solution Notes
+The following blog posts deep div into how to query solution components 
+- (https://www.d365freelancing.com/post/query-all-entities-in-a-dataverse-solutions)
+- (https://www.d365freelancing.com/post/query-views-in-power-platform-using-fetchxml)
 
-#ERD of System Views in a Solution.
+## ERD of _(Views(System)InASolution.xml)_ System Views in a Solution Query.
 ```mermaid
 ---
 title: Views in a Solution FetchXml Query Structure
