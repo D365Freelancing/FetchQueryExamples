@@ -1,0 +1,13 @@
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true" savedqueryid="4bda31de-17c3-ee11-9079-000d3a794b8f">
+  <entity name="solutioncomponent">
+    <filter>
+      <condition entityname="solution" attribute="uniquename" operator="eq" value="SolutionName" />
+    </filter>
+    <link-entity name="solution" from="solutionid" to="solutionid" link-type="inner" alias="solution">
+      <attribute name="uniquename" />
+    </link-entity>
+    <link-entity name="savedquery" from="savedqueryid" to="objectid" link-type="inner" alias="View">
+      <attribute name="name" />
+    </link-entity>
+  </entity>
+</fetch>

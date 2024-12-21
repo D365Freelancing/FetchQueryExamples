@@ -1,0 +1,23 @@
+<fetch>
+  <entity name="solutioncomponent">
+    <link-entity name="solution" from="solutionid" to="solutionid">
+      <attribute name="description" />
+      <attribute name="uniquename" />
+      <attribute name="friendlyname" />
+      <filter>
+        <condition attribute="friendlyname" operator="eq" value="D365 Freelancing" />
+      </filter>
+    </link-entity>
+    <link-entity name="entity" from="entityid" to="objectid">
+      <attribute name="physicalname" />
+      <attribute name="logicalcollectionname" />
+      <attribute name="logicalname" />
+      <attribute name="entitysetname" />
+      <attribute name="externalname" />
+      <attribute name="extensiontablename" />
+      <attribute name="entityid" />
+      <attribute name="externalcollectionname" />
+      <attribute name="basetablename" />
+    </link-entity>
+  </entity>
+</fetch>
